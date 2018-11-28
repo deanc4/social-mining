@@ -2,19 +2,15 @@
 
 Data mining tools for social network account analysis
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ### Prerequisites
 
 python 3
 
 It is expected that you have a database of a specific format to run these files. The loading of data and exporting of the data can be customized to fit your integration by modifying the files.
 
-Expected database structure for mysql:
+## Expected database structure
 
-##user
+## user
 
 Field | Type | Description
 ------|------|---------------
@@ -22,7 +18,7 @@ username | VARCHAR(30) PRIMARY KEY | username
 dateCreated | DATETIME | Date of account creation
 largestIntervalBtwnPosts | DOUBLE | Largest number of days between a users posts
 
-##posts
+## posts
 
 Field | Type | Description
 ------|------|---------------
@@ -35,7 +31,7 @@ points | INT(11) | (reddit) post karma
 dateCreated | DATETIME | time the post was created
 
 
-##comments
+## comments
 
 Field | Type | Description
 ------|------|---------------
